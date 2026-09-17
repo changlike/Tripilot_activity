@@ -10,14 +10,18 @@ OUT_PATH = "data/activities_clean.csv"
 
 REQUIRED_FIELDS = ["contentid", "title", "addr1"]
 
+# dtype=str + keep_default_na=False: contentid 같은 숫자열이 float(.0)로 승격되거나
+# lclsSystm1="NA"(자연 코드)가 pandas 기본 결측 문자열과 겹쳐 사라지는 걸 막기 위함.
+READ_KW = dict(encoding="utf-8-sig", dtype=str, keep_default_na=False, na_filter=False)
+
 
 def load_raw(path=RAW_PATH):
-    return pd.read_csv(path, encoding="utf-8-sig")
+    return pd.read_csv(path, **READ_KW)
 
 
 def drop_missing_required(df: pd.DataFrame):
     """contentid/title/addr1처럼 필수인 필드가 비어 있는 행은 별도로 분리."""
-    missing_mask = df[REQUIRED_FIELDS].isna().any(axis=1)
+    missing_mask = (df[REQUIRED_FIELDS] == "").any(axis=1)
     return df[~missing_mask].copy(), df[missing_mask].copy()
 
 

@@ -1,9 +1,4 @@
 ﻿english_name,korean_name,raw_categories,contentid,contenttypeid,title,addr1,lclsSystm1,lclsSystm2,lclsSystm3,note
-Harmony Mart Myeong-dong Station Branch [Korea Quality],하모니마트 명동역점 [한국관광 품질인증/Korea Quality],전문매장/상가,,,,,,,,
-Hello apM,헬로에이피엠,쇼핑몰,,,,,,,,
-Hyundai I'PARK Mall,현대 아이파크몰,쇼핑;쇼핑몰,,,,,,,,
-Insa-dong Antique Art Street,인사동 고미술거리,전문매장/상가,,,,,,,,
-Jongno 3(sam)-ga Jewelry District,종로3가 귀금속 전문상가,쇼핑;전문매장/상가,,,,,,,,
-Leeum_ Samsung Museum of Art,삼성미술관 리움,문화시설;전시시설,,,,,,,,
-Lotte Duty Free Shop - Main Branch,롯데면세점 (본점),쇼핑,,,,,,,,
-National Museum of Modern and Contemporary Art_ Seoul [MMCA Seoul],국립현대미술관 서울관,전시시설,,,,,,,,
+Harmony Mart Myeong-dong Station Branch [Korea Quality],하모니마트 명동역점 [한국관광 품질인증/Korea Quality],전문매장/상가,,,,,,,,TourAPI 미등록 확정 - 하모니마트/하모니마트 명동/명동역 하모니마트/Harmony Mart 전부 재검색했으나 홍대입구점(다른 지점) 외 결과 없음
+Hyundai I'PARK Mall,현대 아이파크몰,쇼핑;쇼핑몰,,,,,,,,TourAPI 미등록 확정 - 아이파크몰/용산아이파크몰/아이파크몰 용산점/아이파크백화점 전부 재검색했으나 나이키·다이소 등 입점 매장만 나옴. 몰 건물 자체가 단일 콘텐츠로 등록되지 않는 구조적 한계로 판단
+Lotte Duty Free Shop - Main Branch,롯데면세점 (본점),쇼핑,,,,,,,,TourAPI 미등록 확정 - 롯데면세점/롯데면세점 명동·서울·서울점/LOTTE DUTY FREE 전부 재검색했으나 0건. TourAPI 원천에 해당 업체 자체가 없는 것으로 판단
